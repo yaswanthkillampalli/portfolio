@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* navbar settings */
+
+.personal-logo {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar-settings {
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #FAFAFA;
+    font-family: "Poppins";
+    color: #0E0E55;
+    max-width: 1000px;
+    border: 0.1px solid #0E0E55;
+}
+
+/* all heading tags styling */
+.main-headings {
+    font-family: "Black Ops One";
+    font-size: 30px;
+    text-align: center;
+    color: #0E0E55;
+}
+
+/* tags default styling */
+p {
+    font-size: 12px;
+}
+
+div {
+    scroll-snap-align: start;
+}
+
+html {
+    scroll-padding-top: 70px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+/* about container settings */
+#sectionAbout {
+    background-color: #ffffff;
+}
+
+.about-image-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-image-settings {
+    border-radius: 50%;
+    width: 95%;
+}
+
+.about-me-text-box {
+    font-family: "Poppins";
+    color: #0E0E55;
+}
+
+.download-cv-button {
+    background-color: #0E0E55;
+    color: white;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+}
+
+.download-cv-button a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+/* education and experience */
+#sectionEducationExperience {
+    background-color: #8080FF;
+}
+
+.education-section {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.education-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    background-color: #0E0E55;
+    height: 50px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.edu-entry {
+    border-left: 2px solid #e0e0e0;
+    padding-left: 10px;
+    margin-bottom: 16px;
+}
+
+.edu-years {
+    margin: 0;
+    font-size: 13px;
+    color: #777;
+}
+
+.edu-school {
+    margin: 5px 0 0;
+    font-size: 17px;
+    color: #333;
+}
+
+.edu-degree {
+    margin: 2px 0 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.edu-list {
+    max-height: 250px;
+    min-height: 250px;
+    /* Set as needed */
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+}
+
+.edu-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.edu-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+
+/* skills sections begins here */
+#sectionSkills {
+    background-color: white;
+    padding: 20px 0 20px 0;
+}
+
+.skillLogoSettings {
+    border-radius: 10%;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+/* projects section */
+#sectionProject {
+    background-color: #8080FF;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 94%;
+    min-height: 300px;
+
+    position: relative;
+    text-align: left;
+    margin: 10px;
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.card-tags {
+    padding: 15px 20px 0px;
+
+}
+
+.tag {
+    background: #0E0E55;
+    color: white;
+    font-size: 13px;
+    padding: 6px 12px;
+    margin-right: 6px;
+    margin-top: 6px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card-content {
+    padding: 10px 20px 20px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #222;
+}
+
+.card-action {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.card-action button {
+    background-color: #0E0E55;
+    color: #fff;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+/* certificates section */
+/* Ensure Roboto font is included (add this in your HTML <head> if not already present) */
+/* Styling for the certificate card */
+#sectionCertificates {
+    padding: 20px 0 20px 0;
+}
+
+.certificate-card {
+    background: white;
+    border: 2px solid #0E0E55;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 270px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+/* Styling for the certificate title */
+.certificate-title {
+    font-family: "Work Sans";
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the provider text */
+.certificate-provider {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8080FF;
+    margin-bottom: 20px;
+}
+
+.certificate-provider span {
+    color: #0E0E55;
+    font-weight: 600;
+}
+
+/* Styling for the button */
+.certificate-button {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    background-color: #0E0E55;
+    border: 1px solid #0E0E55;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Modal wrapper */
+.custom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    flex-direction: column;
+}
+
+/* Modal image */
+.custom-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+
+/* contact section css */
+#sectionContact {
+    padding: 10px;
+    background-color: #8080FF;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.form-label {
+    font-weight: 600;
+    color: #1a2a44;
+    font-size: 1rem;
+}
+
+.form-control {
+    border: 2px solid #e0e7ff;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #00c4b4;
+    box-shadow: 0 0 8px rgba(0, 196, 180, 0.3);
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: #a3bffa;
+    opacity: 0.8;
+}
+
+.contact-button {
+    background-color: #0E0E55;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-icons .bi-linkedin:hover {
+    color: #0E0E55;
+}
+
+.social-icons .bi-whatsapp:hover {
+    color: #0E0E55;
+}
+
+.social-icons .bi-discord:hover {
+    color: #0E0E55;
+}
+
+
+
+
+.form-settings {
+    height: 680px;
+    width: 300px;
+}
