@@ -70,10 +70,10 @@ function App() {
   const giturl = "https://github.com/yaswanthkillampalli/";
   const projectLink = [
     giturl + "movie-hit-flop",
-    giturl + "personal-portfolio",
+    "https://www.yashdev.tech/",
     giturl + "mood-tracker",
-    giturl + "chat-bot",
-    giturl + "gorest-api"
+    "https://chatbot.yashdev.tech/",
+    "https://gorest.yashdev.tech/"
   ];
 
   // State for modal and counters
