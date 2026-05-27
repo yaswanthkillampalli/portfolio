@@ -89,7 +89,7 @@ export const About = ({
 
 					<motion.p
 						{...fadeUp(0.18)}
-						className="mb-10 max-w-md text-base leading-relaxed text-slate-400"
+						className="mb-10 max-w-l text-base leading-relaxed text-slate-400"
 					>
 						{summary}
 					</motion.p>
