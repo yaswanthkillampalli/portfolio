@@ -1,0 +1,101 @@
+{
+  "personal_info": {
+    "name": "Yaswanth Vardhan Killampalli",
+    "role": "Software Engineer & AI Enthusiast",
+    "pronouns": "He/Him",
+    "location": "Vijayawada, Andhra Pradesh, India",
+    "phone": "+91 72071 00712",
+    "email": "yaswanthkillampalli@gmail.com",
+    "linkedin": "https://linkedin.com/in/yaswanthkillampalli",
+    "github": "https://github.com/yaswanthkillampalli",
+    "portfolio": "https://www.yashdev.tech"
+  },
+  "professional_summary": "Third-year Computer Science student and Full Stack Web Developer with hands-on experience in the MERN stack and AI/ML integrations. Passionate about building scalable web applications and automating workflows to reduce human error. Proven ability to deliver end-to-end projects, from cloud-hosted collegiate platforms to AI-powered threat prediction models, with a strong focus on clean code and reliable system performance.",
+  "technical_skills": {
+    "languages": ["C++", "Python", "Java", "JavaScript", "HTML", "CSS"],
+    "web_technologies": ["React.js", "Next.js", "Node.js", "Express.js"],
+    "databases_cloud": ["MongoDB", "PostgreSQL", "Supabase", "Microsoft Azure"],
+    "tools_methodologies": ["Git", "n8n", "Cloudflare Tunnels", "AI Integration"]
+  },
+  "work_experience": [
+    {
+      "id": "exp1",
+      "company": "Infosys",
+      "location": "Vijayawada, AP",
+      "role": "Machine Learning Engineering Intern",
+      "duration": "Aug 2025 – Oct 2025",
+      "responsibilities": [
+        "Built an AI-based cyber threat prediction system using Python and FastAPI to detect and block server vulnerabilities in real-time, reducing response times by 30%.",
+        "Trained a reinforcement learning model with over 98% accuracy, designed to continuously learn and adapt to new attack patterns.",
+        "Developed a responsive frontend dashboard with interactive charts for monitoring network health and server status.",
+        "Connected multiple servers and optimized data processing pipelines to significantly reduce system latency."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj2",
+      "title": "Code Sprint Platform",
+      "tech_stack": ["Next.js", "MongoDB", "Judge0", "WSL", "Cloudflare Tunnels"],
+      "duration": "Feb 2026 – Mar 2026",
+      "live_demo": "https://codesprint.yashcodes.tech",
+      "github": "https://github.com/yaswanthkillampalli/code-sprint",
+      "description": [
+        "Established an online competitive programming platform featuring a sandboxed automated code judge to securely execute code across multiple language runtimes.",
+        "Self-hosted and configured the Judge0 execution engine within a localized WSL environment, utilizing Cloudflare Tunnels to securely expose endpoints without open ports.",
+        "Formulated a real-time, socket-driven leaderboard tracking metrics for 100+ concurrent users, processing simultaneous submissions with evaluation latency under 200 ms.",
+        "Deployed a centralized contest coordinator dashboard enabling early finisher detection to dynamically designate event winners based on completion speed."
+      ]
+    },
+    {
+      "id": "proj1",
+      "title": "MailOps — AI-Powered Email Operations Dashboard",
+      "tech_stack": ["Next.js", "TypeScript", "Groq", "Cerebras", "Resend", "Supabase", "Vercel"],
+      "duration": "Oct 2025 – Nov 2025",
+      "live_demo": "https://mailops.yashcodes.tech",
+      "github": "https://github.com/yaswanthkillampalli/mailops",
+      "description": [
+        "Constructed an active email triaging engine parsing incoming messages via webhooks, processing classification tasks in under 500 ms via concurrent LLM orchestration.",
+        "Styled a clean 10|30|60 interface to isolate core workspace layout modules, containing dynamic context elements that handle up to 1,200 emails daily without data drag.",
+        "Executed a fast Kanban module backed by asynchronous database polling on Supabase PostgreSQL, preventing data drift across multi-user ticket status changes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "degree": "B.Tech, Computer Science Engineering",
+      "institution": "Dhanekula Institute of Engineering & Technology",
+      "duration": "2023 – Present",
+      "cgpa": "8.7"
+    },
+    {
+      "id": "edu2",
+      "degree": "Intermediate (MPC)",
+      "institution": "Sri Chaitanya Junior College",
+      "duration": "2021 – 2023",
+      "gpa": "8.5"
+    },
+    {
+      "id": "edu3",
+      "degree": "SSC",
+      "institution": "Aravinda High School",
+      "duration": "2020 – 2021",
+      "gpa": "10.0"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert1",
+      "name": "Google Cloud Cyber Security Professional",
+      "issuer": "Google Cloud",
+      "date": "Dec 2025"
+    },
+    {
+      "name": "Industry-Ready Full Stack Development",
+      "issuer": "NxtWave CCBP Academy",
+      "date": "2025",
+      "id": "cert2"
+    }
+  ]
+}
